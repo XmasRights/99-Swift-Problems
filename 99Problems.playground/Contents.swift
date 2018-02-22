@@ -12,4 +12,7 @@ assert(List(1, 1, 2, 3, 5, 8)?.penultimate == 5)
 let p3List = List(1, 1, 2, 3, 5, 8)!
 assert(p3List[3] == 3)
 
+// P4
+assert(List(1, 1, 2, 3, 5, 8)?.length == 6)
+
 print("✅")
